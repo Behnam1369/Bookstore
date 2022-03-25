@@ -1,22 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magician
-A simple calculator app to learn react basics. I nthis project I have used react components (class based and function based), react hooks, routing and styling.  
+# Bookstore
+A simple project for getting started with redux.  
 
 
 # Requirements for this project
 
-Part 1: [Project setup](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/project_setup.md)
+Part 1: [Initialize project with components](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/project_init_project_wth_comps_v2_0.md)
 
-Part 2: [Component](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/project_components.md)
+Part 2: [Add reducers and actions](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/add_reducers_an_actions.md)
 
-Part 3: [Events](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/project_events.md)
+Part 3: [Use Redux in React components](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/use_redux_in_react_components.md)
 
-Part 4: [Refactor with hooks](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/project_refactor_with_hooks.md)
+Part 4: [Connect to API](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/connec_to_api.md)
 
 
 # screenshot 
-![Screenshot](Demo.jpg)
+Will be added
 
 ## Built using
 
@@ -25,10 +25,12 @@ Part 4: [Refactor with hooks](https://github.com/microverseinc/curriculum-react-
 - JS (ES6)
 - NPM
 - Gitflow
-- React.js
+- React
+- Redux
 
 ## Live Demo
-You can find the live demo on [Github](https://behnam1369.github.io/math-magician/) , [Heroku](https://math-magician-app.herokuapp.com/) or [Netlify](https://luxury-vacherin-461938.netlify.app/).
+Will be added. 
+
 ## Authors
 
 👤 **Behnam Aghaali**
