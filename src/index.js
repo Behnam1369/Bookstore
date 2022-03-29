@@ -11,12 +11,12 @@ const store = createStore(rootReducer);
 // store.dispatch({
 //   type: 'book-store/books/ADD BOOK',
 //   book:
-//     { title: 'Harry Potter', author: 'JK Rowling' },
+//     { genre: 'Comedy', title: 'Harry Potter', author: 'JK Rowling' },
 // });
 // store.dispatch({
 //   type: 'book-store/books/ADD BOOK',
 //   book:
-//     { title: 'I am footbAll', author: 'Zlatan Ibrahimovic' },
+//     { genre: 'football', title: 'I am footbAll', author: 'Zlatan Ibrahimovic' },
 // });
 // store.dispatch({ type: 'book-store/books/REMOVE BOOK', index: 1 });
 // console.log(store.getState());
