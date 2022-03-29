@@ -1,5 +1,5 @@
 const CHECKSTATUS = 'book-store/categories/CHECK STATUS';
-const defaultState = [];
+const defaultState = 'Unknown status';
 
 export default function categoriesReducers(state = defaultState, action) {
   switch (action.type) {
