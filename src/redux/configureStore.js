@@ -3,6 +3,6 @@ import booksReducer from './books/books';
 import categoriesReducers from './categories/categories';
 
 export default combineReducers({
-  books: booksReducer,
+  booksReducer,
   categoriesReducers,
 });
