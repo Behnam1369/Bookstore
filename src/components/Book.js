@@ -11,20 +11,24 @@ function Book(props) {
   } = props;
   return (
     <div className="book">
-      <h4>{category}</h4>
-      <h2>{title}</h2>
-      <h3>{author}</h3>
-      <button
-        type="button"
-        disabled={removing}
-        onClick={async () => {
-          setRemoving(true);
-          await dispatch(removeBook(itemid));
-        }}
-      >
-        {removing ? 'Removing...' : 'Remove'}
+      <div className="bookInfo">
+        <h4>{category}</h4>
+        <h2>{title}</h2>
+        <h3>{author}</h3>
+        <button type="button" className="btnComments">Comments</button>
+        <button
+          type="button"
+          disabled={removing}
+          onClick={async () => {
+            setRemoving(true);
+            await dispatch(removeBook(itemid));
+          }}
+        >
+          {removing ? 'Removing...' : 'Remove'}
 
-      </button>
+        </button>
+        <button type="button" className="btnEdit">Edit</button>
+      </div>
     </div>
   );
 }

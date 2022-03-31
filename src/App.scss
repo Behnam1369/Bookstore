@@ -8,8 +8,15 @@
   src: url('./fonts/Montserrat-Light.ttf');
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url('./fonts/Roboto.ttf');
+}
+
 $c1: #0290ff;
 $c2: #e8e8e8;
+$c3: #121212;
+$c4: #4386bf;
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,7 +57,7 @@ header {
           cursor: pointer;
           text-decoration: none;
           font-family: Montserrat-Light;
-          color: #121212;
+          color: $c3;
           font-size: 20px;
 
           h1 {
@@ -84,6 +91,71 @@ header {
   }  
 }
 
+.bookList {
+  background-color: #fafafa;
+  padding: 20px 7.5vw 20px 7.5vw ;
+
+  .book {
+    border-radius: 4px;
+    border: solid 1px $c2;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+
+    h4 {
+      font-family: Montserrat;
+      color: $c3;
+      opacity: 0.5;
+      margin-top: 0;
+      margin-bottom: 7px;
+    }
+
+    h2 {
+      font-family: Roboto;
+      color: $c3;
+      margin-top: 5px;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      font-family: Roboto;
+      color: $c4;
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: normal;
+    }
+
+    button {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-family: Roboto;
+      color: $c4;
+      background-color: #fff;
+      border: none;
+      font-size: 16px;
+    }
+
+    button:hover {
+      color: #0602ff;
+      cursor: pointer;
+    }
+
+    .btnComments {
+      padding-left: 0;
+    }
+
+    .btnEdit {
+      padding-right: 0;
+    }
+
+    button:nth-child(2n+1) {
+     border-left: solid 1px silver ;
+     border-right: solid 1px silver ;
+    }
+  }
+  
+}
 
 .book,
 form {
