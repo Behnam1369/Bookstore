@@ -32,6 +32,7 @@ function Form() {
   const dispatch = useDispatch();
   return (
     <form>
+      <h2>ADD NEW BOOK</h2>
       <input type="text" placeholder="Title" value={title} onChange={(e) => handleTitleInput(e)} />
       <input type="text" placeholder="Author" value={author} onChange={(e) => handleAuthorInput(e)} />
       <select value={category} onChange={(e) => handleGenreChange(e)}>

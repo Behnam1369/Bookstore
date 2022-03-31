@@ -95,6 +95,11 @@ header {
   background-color: #fafafa;
   padding: 20px 7.5vw 20px 7.5vw ;
 
+  h3 {
+    text-align: center;
+    font-family: Montserrat;
+  }
+
   .book {
     border-radius: 4px;
     border: solid 1px $c2;
@@ -235,9 +240,60 @@ header {
   }
 }
 
-.book,
 form {
-  border: solid 1px silver;
-  margin: 10px;
-  padding: 10px;
+  border-top: solid 1px $c2;
+  margin-top: 50px;
+  h2 {
+    font-family: Montserrat;
+    color: $c3;
+    opacity: 0.5;
+    margin-left: 10px;
+  }
+  input {
+    margin: 10px;
+    padding: 10px;
+    font-family: Montserrat-Light;
+    color: $c3;
+    font-size: 18px;
+    font-weight: normal;
+    width: calc(50% - 247px);
+  }
+
+  select {
+    margin: 10px;
+    padding: 10px;
+    font-family: Montserrat-Light;
+    color: $c3;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  button {
+    font-family: Roboto;
+    background-color: $c1;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 12px 40px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  button:disabled {
+    background-color: #ddf0ff;
+    color: $c1;
+    cursor: default;
+  }
+
+  p {
+    color: red;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 18px;
+  }
 }
+
+

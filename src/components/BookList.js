@@ -16,7 +16,7 @@ function BookList() {
 
   return (
     <div className="bookList">
-      {loading ? 'Loading...'
+      {loading ? <h3>Loading...</h3>
         : books.map((el) => (
           <Book
             key={el.item_id}
