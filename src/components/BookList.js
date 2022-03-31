@@ -15,7 +15,7 @@ function BookList() {
   }, []);
 
   return (
-    <div>
+    <div className="bookList">
       {loading ? 'Loading...'
         : books.map((el) => (
           <Book
