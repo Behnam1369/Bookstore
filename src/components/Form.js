@@ -39,7 +39,7 @@ function Form() {
         <option value="">Select Category</option>
         <option value="Action">Action</option>
         <option value="Economy">Economy</option>
-        <option value="Economy">Sport</option>
+        <option value="Sport">Sport</option>
         <option value="Science Fiction">Science Fiction</option>
       </select>
       <button
