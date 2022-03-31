@@ -68,7 +68,7 @@ header {
           }
         }
 
-        a.active {
+        a[aria-current="page"] {
           font-weight: bold;
         }
 
@@ -95,7 +95,7 @@ header {
   background-color: #fafafa;
   padding: 20px 7.5vw 20px 7.5vw ;
 
-  h3 {
+  > h3 {
     text-align: center;
     font-family: Montserrat;
   }
