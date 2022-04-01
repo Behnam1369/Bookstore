@@ -16,7 +16,7 @@ Part 4: [Connect to API](https://github.com/microverseinc/curriculum-react-redux
 
 Part 5: [Styling](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/styling.md)
 # screenshot 
-![Screenshot](demo.png)
+![Screenshot](public/demo.png)
 
 ## Built using
 
@@ -29,7 +29,11 @@ Part 5: [Styling](https://github.com/microverseinc/curriculum-react-redux/blob/m
 - Redux
 
 ## Live Demo
-Click [here](https://reliable-wisp-3d0ee8.netlify.app/) to see the live demo.
+Click [here](https://reliable-wisp-3d0ee8.netlify.app/) to see the live demo. 
+
+You can also watch the below presentational video. 
+
+[![IMAGE THUMBNAIL](public/ThumbnailVideo.png)](https://www.youtube.com/watch?v=t3fGUQbGuKA)
 
 
 ## Authors
