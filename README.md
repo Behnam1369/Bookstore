@@ -16,7 +16,7 @@ Part 4: [Connect to API](https://github.com/microverseinc/curriculum-react-redux
 
 
 # screenshot 
-Will be added
+![Screenshot](demo.png)
 
 ## Built using
 
@@ -29,7 +29,8 @@ Will be added
 - Redux
 
 ## Live Demo
-Will be added. 
+Click [here](https://reliable-wisp-3d0ee8.netlify.app/) to see the live demo.
+
 
 ## Authors
 
