@@ -14,7 +14,7 @@ Part 3: [Use Redux in React components](https://github.com/microverseinc/curricu
 
 Part 4: [Connect to API](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/connec_to_api.md)
 
-
+Part 5: [Styling](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/styling.md)
 # screenshot 
 ![Screenshot](demo.png)
 
