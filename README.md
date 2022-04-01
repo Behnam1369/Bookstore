@@ -14,9 +14,9 @@ Part 3: [Use Redux in React components](https://github.com/microverseinc/curricu
 
 Part 4: [Connect to API](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/connec_to_api.md)
 
-
+Part 5: [Styling](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/styling.md)
 # screenshot 
-Will be added
+![Screenshot](public/demo.png)
 
 ## Built using
 
@@ -29,7 +29,12 @@ Will be added
 - Redux
 
 ## Live Demo
-Will be added. 
+Click [here](https://reliable-wisp-3d0ee8.netlify.app/) to see the live demo. 
+
+You can also watch the below presentational video. 
+
+[![IMAGE THUMBNAIL](public/ThumbnailVideo.png)](https://www.youtube.com/watch?v=t3fGUQbGuKA)
+
 
 ## Authors
 
@@ -126,7 +131,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.

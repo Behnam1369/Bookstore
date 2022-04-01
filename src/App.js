@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BookList from './components/BookList';
 import Categories from './components/Categories';
 import Header from './components/Header';
-import './App.css';
+import './App.scss';
 
 class App extends React.PureComponent {
   render() {

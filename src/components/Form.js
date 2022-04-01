@@ -32,13 +32,14 @@ function Form() {
   const dispatch = useDispatch();
   return (
     <form>
+      <h2>ADD NEW BOOK</h2>
       <input type="text" placeholder="Title" value={title} onChange={(e) => handleTitleInput(e)} />
       <input type="text" placeholder="Author" value={author} onChange={(e) => handleAuthorInput(e)} />
       <select value={category} onChange={(e) => handleGenreChange(e)}>
         <option value="">Select Category</option>
         <option value="Action">Action</option>
         <option value="Economy">Economy</option>
-        <option value="Economy">Sport</option>
+        <option value="Sport">Sport</option>
         <option value="Science Fiction">Science Fiction</option>
       </select>
       <button
