@@ -7,7 +7,7 @@ import { getBooks } from '../redux/books/books';
 
 function BookList() {
   const {
-    loading, books,
+    loading, books, failureAPI,
   } = useSelector((state) => state.booksReducer);
 
   const dispatch = useDispatch();
@@ -18,6 +18,8 @@ function BookList() {
   let bookList = '';
   if (loading) {
     bookList = <h3>Loading...</h3>;
+  } else if (failureAPI) {
+    bookList = <h3>OOPS! SOMETHING WENT WRONG. PLEASE TRY AGAIN LATER.</h3>;
   } else if (books.length === 0) {
     bookList = <h3>There is no book in the list yet.</h3>;
   } else {
