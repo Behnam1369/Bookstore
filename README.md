@@ -41,7 +41,7 @@ You can also watch the below presentational video.
 👤 **Behnam Aghaali**
 
 - GitHub: [https://github.com/Behnam1369](https://github.com/Behnam1369)
-- LinkedIn: [https://www.linkedin.com/in/behnam-aghaali-62561375](https://www.linkedin.com/in/behnam-aghaali-62561375)
+- LinkedIn: [https://www.linkedin.com/in/behnam-aghaali-62561375](https://www.linkedin.com/in/behnam-aghaali)
 - Twitter: [https://twitter.com/behnamagh1369](https://twitter.com/behnamagh1369)
 - Email: [behnam.aghaali@yahoo.com](mailto:behnam.aghaali@yahoo.com)
 
